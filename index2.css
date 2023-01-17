@@ -1,0 +1,108 @@
+.a {
+   height: 450px;
+   background-color: white;
+   margin: 50px 20% 0 20%;
+   border-radius: 8px;
+   box-shadow: 3px;
+   display: flex;
+   height: 100%;
+   object-fit: cover;
+   max-width: 800px;
+   min-width: 800px;
+}
+
+.green {
+
+   flex: 40%;
+
+
+}
+
+.red {
+
+   flex: 45%;
+   height: 100%;
+
+}
+
+.let-spc {
+   letter-spacing: 8px;
+   padding-left: 25px;
+   padding-top: 50px;
+   font-size: 20px;
+}
+
+.bold {
+   font-size: 50px;
+   padding: 25px 70px 25px 25px;
+}
+
+.paragraf {
+   padding: 1px 89px 25px 25px;
+   font-size: 17px;
+}
+
+.price1 {
+   font-size: 45px;
+   color: mediumseagreen;
+   padding-left: 20px;
+}
+
+.price2 {
+   text-align: center;
+   width: 50%;
+   font-size: 20px;
+   padding-top: 15px;
+}
+
+.prices {
+   display: flex;
+}
+
+.button {
+   background-color: mediumseagreen;
+   padding: 10px 120px;
+   color: white;
+   border-radius: 7px;
+   text-decoration: none;
+   margin: 8%;
+   font-size: 25px;
+
+}
+
+.button:hover {
+   background-color: green;
+   transition-duration: 0.3s;
+}
+
+@media (max-width:769px) {
+   .a {
+      height: 818px;
+      max-width: 400px;
+      min-width: 400px;
+      flex-direction: column;
+      margin: 0%;
+      height: 0%;
+
+   }
+
+   .red {
+      flex: 60%;
+
+
+   }
+
+   .let-spc {
+      padding-top: 10px;
+   }
+
+   .button {
+      margin: 5%;
+   }
+
+   .img {
+      border-bottom-left-radius: 0px;
+      border-top-right-radius: 8px;
+   }
+
+}
